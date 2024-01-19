@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+@media(min-width: 391px){
+
+    body{
+        background-color: var(--background-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Figtree", sans-serif;
+    }
+
+    a,h4,h5{
+        font-weight: 800;
+        color: var(--titles-color);
+    }
+
+    main{
+        width: 370px;
+        height: 495px;
+        background-color: var(--card-color);
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 7px 6px black;
+    }
+
+    main:hover{
+        box-shadow: 17px 15px black;
+        transition: 0.5s ease;
+    }
+
+    .image{
+        width: 368px;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4px;
+    }
+
+    .blog{
+        width: 336px;
+        height: 201px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0px 20px 0px;
+    }
+
+    .categoria{
+        background-color: var(--background-color);
+        width: 90px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 800;
+    }
+
+    span{
+        font-weight: 600;
+        font-size: 13px;
+        color: var(--titles-color);
+    }
+
+    a{
+        margin: 5px 0px;
+        font-size: 22px;
+        align-self: flex-start;
+    }
+
+    a:hover{
+        color: var(--background-color);
+        transition: 0.5s ease;
+        cursor: pointer;  
+    }
+
+    p{
+        color: var(--paragraph-color);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .avatar{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        height: 67px;
+    }
+
+    .avatar img{
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+}
