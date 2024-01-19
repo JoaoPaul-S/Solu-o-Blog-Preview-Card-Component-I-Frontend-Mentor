@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
-@media(min-width: 391px){
+@media(min-width: 426px){
 
     body{
         background-color: var(--background-color);

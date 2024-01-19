@@ -103,7 +103,7 @@
 
 
 
-@media(min-width: 361px) and (max-width:390px){
+@media(min-width: 361px) and (max-width:425px){
     body{
         background-color: var(--background-color);
         display: flex;
